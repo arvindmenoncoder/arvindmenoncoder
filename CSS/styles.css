@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+
+a[href^=tel] {
+    color: inherit;
+    text-decoration: none;
+}
+
+a {
+    color: white;
+}
+
+.navbar{
+    background-color: rgba(245, 245, 247,0);
+    padding-top: 10px;
+    padding-bottom:10px;
+    
+    transition:all .7s;
+    margin-bottom: 0px;
+    
+      
+}
+
+.nav-item{
+margin-right: 0px;
+    
+}
+.nav-link:hover{
+    color: white;
+}
+.nav-link{
+    color: white;
+}
+
+.custom-navbar{
+    padding-top:0px;
+    padding-bottom:0px;
+    background-color: rgba(0, 0, 0,0.8);
+
+}
+
+/* .custom-navbar-text{
+    color:black !important;
+}
+
+.custom-nav-link{
+    color: black !important;
+} */
+
+#logo{
+    width: 100px;
+    height: 100px;
+}
+.navbar-text{
+    font-size: 30px; 
+    font-weight: 100;
+    font-family: 'Open Sans';
+   
+    
+    
+}
+
+.container{
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100%;
+}
+
+
+.row-content{
+    border-bottom: 1px ridge;
+    padding-top: 50px;
+    padding-bottom:50px;
+    
+}
+
+
+.section1{
+    /* padding-top: 50%;
+    padding-left:50px;
+    padding-right:50px;  */
+    padding-top: 15%;
+    
+    border-bottom: 1px ridge;
+    background-image:url('../Images/house1.jpg');
+    background-position: center;
+    background-size: cover;
+    
+}
+.blockquote{
+    
+    font-size: 8vw;
+    color: white;
+}
+
+.blockquote-footer{
+    font-size: 20px;
+    padding-bottom: 50px;
+    color:cornsilk;
+}
+
+@media screen and (max-width:700px){
+    .b1{
+        font-size:30px;
+    }
+    
+}
+
+.section2{
+   
+    max-width: 100%;
+    
+}
+
+.productsMain{
+    box-shadow: 0 50px 100px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 50px;
+
+
+}
+
+.footer{
+    background-color: rgb(245, 245, 247);
+    padding-top: 50px;
+    padding-bottom:10px;
+    margin: 0px auto;
+    color:grey;
+    font-size: 13px;
+    
+}
+
+
+.jumbotron-head{
+    
+    font-family: Helvetica, sans-serif;
+}
+
+.footer.copyright{
+    font-size: 13px;
+    justify-content: center !important;
+}
+
+
+.section1{
+
+}
+
+.section2{
+
+} 
